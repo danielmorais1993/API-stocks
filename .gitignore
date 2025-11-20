@@ -4,3 +4,12 @@ venv/
 __pycache__/
 .DS_Store
 venv/
+venv/
+newenv/
+new_env/
+*.pyc
+__pycache__/
+.env
+.vscode/
+.DS_Store
+
