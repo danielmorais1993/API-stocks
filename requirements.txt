@@ -1,23 +1,26 @@
-# Core server dependencies (server-friendly)
-fastapi
-uvicorn
+fastapi==0.121.0
+uvicorn[standard]==0.27.1
 
-# data & finance
-pandas
-numpy
+pandas==2.1.4
+numpy==1.26.4
 
-yfinance
-scikit-learn
-joblib
+scikit-learn==1.3.2
+joblib==1.3.2
 
-# utilities
-requests
-python-dotenv
-feedparser
-vaderSentiment
+yfinance==0.2.36
+lxml==4.9.3
+feedparser==6.0.11
 
-# technical indicators (pin to a version that exists)
-ta
+vaderSentiment==3.3.2
 
-# OpenCV server-safe
-opencv-python-headless
+ta==0.10.2
+
+transformers==4.37.2
+tokenizers==0.15.2
+
+# CPU-only PyTorch version (safe for servers)
+torch==2.2.0
+
+# optional
+python-dotenv==1.0.1
+beautifulsoup4==4.12.3
