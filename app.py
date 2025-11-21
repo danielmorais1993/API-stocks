@@ -430,6 +430,8 @@ except Exception as e:
 
 # CORS - keep your dev origins here
 origins = [
+    'http://127.0.0.1:8000'
+    'https://api-stocks-l475.onrender.com',
     "http://localhost:5173",
     "http://127.0.0.1:5173",
     "http://localhost:5177",

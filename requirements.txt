@@ -11,3 +11,5 @@ vaderSentiment
 requests
 python-dateutil
 pydantic
+transformers
+finbert-embedding
