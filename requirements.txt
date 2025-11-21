@@ -1,13 +1,13 @@
 # minimal backend requirements (CPU-only, no heavy DL libs)
-fastapi==0.121.0
-uvicorn[standard]==0.27.1
-pandas==2.1.4
-numpy==1.26.4
-scikit-learn==1.3.0
-joblib==1.5.2
-yfinance==0.2.24
-feedparser==6.0.12
-vaderSentiment==3.3.2
-requests==2.31.0
-python-dateutil==2.8.2
-pydantic==2.12.4
+fastapi
+uvicorn
+pandas
+numpy
+scikit-learn
+joblib
+yfinance
+feedparser
+vaderSentiment
+requests
+python-dateutil
+pydantic
